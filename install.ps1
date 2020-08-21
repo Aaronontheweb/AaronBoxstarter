@@ -34,5 +34,8 @@ git config --global commit.gpgsign true
 
 dotnet tool install --global pbm 
 
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
 Update-Help
 Install-WindowsUpdate
