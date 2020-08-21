@@ -27,6 +27,11 @@ refreshenv
 git config --global --add merge.tool kdiff3
 git config --global --add diff.guitool kdiff3
 
+# NOTE: still need to create a GPG key before signing will work.
+# SEE: https://docs.github.com/en/github/authenticating-to-github/telling-git-about-your-signing-key
+git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+git config --global commit.gpgsign true
+
 dotnet tool install --global pbm 
 
 Update-Help
