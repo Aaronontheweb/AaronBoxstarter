@@ -19,6 +19,7 @@ cinst markdownpad2 -y
 cinst windirstat -y
 cinst pulumi -y
 cinst azure-cli -y
+cinst mingw -y
 cinst ruby -y
 cinst tortoisemerge kdiff3 -y
 
