@@ -14,6 +14,7 @@ cinst vscode -y
 cinst sublimetext3.app -y
 cinst slack -y
 cinst docker-desktop -y
+cinst docker-kitematic -y
 cinst sqlitebrowser -y
 cinst markdownpad2 -y
 cinst windirstat -y
