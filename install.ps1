@@ -22,7 +22,7 @@ cinst pulumi -y
 cinst azure-cli -y
 cinst mingw -y
 cinst ruby -y
-cinst tortoisemerge kdiff3 -y
+cinst winmerge kdiff3 -y
 
 refreshenv
 
