@@ -26,6 +26,7 @@ cinst winmerge kdiff3 -y
 
 cinst mingw -y
 cinst ruby -y
+cinst javaruntime -y
 cinst adoptopenjdk11 -y
 cinst sbt -y #Scala build tool
 
