@@ -20,9 +20,14 @@ cinst markdownpad2 -y
 cinst windirstat -y
 cinst pulumi -y
 cinst azure-cli -y
+cinst winmerge kdiff3 -y
+
+# Non-.NET development tools
+
 cinst mingw -y
 cinst ruby -y
-cinst winmerge kdiff3 -y
+cinst adoptopenjdk11 -y
+cinst sbt -y #Scala build tool
 
 refreshenv
 
