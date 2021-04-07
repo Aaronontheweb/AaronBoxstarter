@@ -26,7 +26,7 @@ cinst winmerge kdiff3 -y
 
 cinst mingw -y
 cinst ruby -y
-cinst jre8 -PackageParameters "/exclude:32" -y # don't want 32 bit Java
+cinst adoptopenjdk11jre -y
 cinst adoptopenjdk11 -y
 cinst sbt -y #Scala build tool
 
