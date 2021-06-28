@@ -24,8 +24,8 @@ cinst winmerge kdiff3 -y
 
 # Non-.NET development tools
 
-cinst mingw -y
-cinst ruby -y
+cinst msys2 -y
+cinst ruby ruby2.devkit -y
 cinst adoptopenjdk11jre -y
 cinst adoptopenjdk11 -y
 cinst sbt -y #Scala build tool
