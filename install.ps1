@@ -30,9 +30,6 @@ cinst adoptopenjdk11jre -y
 cinst adoptopenjdk11 -y
 cinst sbt -y #Scala build tool
 
-# Install JetBrains products
-cinst dotultimate -y
-
 refreshenv
 
 git config --global --add merge.tool kdiff3
