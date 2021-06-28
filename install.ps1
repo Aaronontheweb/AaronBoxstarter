@@ -9,7 +9,7 @@ cinst dropbox -y
 cinst sysinternals -y
 cinst poshgit github-desktop -y
 cinst gpg4win -y
-cinst googlechrome -y
+cinst brave -y
 cinst vscode -y
 cinst sublimetext3.app -y
 cinst slack -y
