@@ -10,6 +10,7 @@ cinst sysinternals -y
 cinst poshgit github-desktop -y
 cinst gpg4win -y
 cinst brave -y
+cinst paint.net -y
 cinst vscode -y
 cinst sublimetext3.app -y
 cinst slack -y
