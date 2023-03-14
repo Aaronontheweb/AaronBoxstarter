@@ -2,34 +2,39 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 Set-TimeZone -Name "Central Standard Time" -Verbose
 
 cinst cmder -y
+cinst jetbrainstoolbox -y
 cinst dotnetcore-sdk -y
 cinst dotnetfx -y
 cinst netfx-4.6.1-devpack -y
 cinst dropbox -y
 cinst sysinternals -y
-cinst poshgit github-desktop -y
 cinst gpg4win -y
 cinst brave -y
 cinst paint.net -y
+cinst gifcam -y
 cinst vscode -y
 cinst sublimetext3.app -y
 cinst slack -y
+cinst discord -y
 cinst docker-desktop -y
 cinst docker-kitematic -y
 cinst sqlitebrowser -y
 cinst markdownpad2 -y
+cinst linqpad -y
 cinst windirstat -y
 cinst pulumi -y
 cinst azure-cli -y
+cinst poshgit github-desktop -y
 cinst winmerge kdiff3 -y
+
+# Data tools
+cinst azure-data-studio -y
+cinst sql-server-management-studio -y
 
 # Non-.NET development tools
 
 cinst msys2 -y
 cinst ruby ruby2.devkit -y
-cinst adoptopenjdk11jre -y
-cinst adoptopenjdk11 -y
-cinst sbt -y #Scala build tool
 
 refreshenv
 
