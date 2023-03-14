@@ -4,6 +4,7 @@ Set-TimeZone -Name "Central Standard Time" -Verbose
 cinst cmder -y
 cinst jetbrainstoolbox -y
 cinst dotnetcore-sdk -y
+cinst dotnet -y
 cinst dotnetfx -y
 cinst netfx-4.6.1-devpack -y
 cinst dropbox -y
