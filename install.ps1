@@ -5,6 +5,7 @@ cinst cmder -y
 cinst jetbrainstoolbox -y
 cinst dotnetcore-sdk -y
 cinst dotnet -y
+cinst dotnet-6.0-sdk -y
 cinst dotnetfx -y
 cinst netfx-4.6.1-devpack -y
 cinst dropbox -y
