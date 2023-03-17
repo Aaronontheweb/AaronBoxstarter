@@ -2,6 +2,7 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 Set-TimeZone -Name "Central Standard Time" -Verbose
 
 cinst cmder -y
+cinst 7zip -y
 cinst jetbrainstoolbox -y
 cinst dotnetcore-sdk -y
 cinst dotnet -y
