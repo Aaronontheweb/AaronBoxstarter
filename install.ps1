@@ -4,9 +4,9 @@ Set-TimeZone -Name "Central Standard Time" -Verbose
 cinst cmder -y
 cinst 7zip -y
 cinst jetbrainstoolbox -y
-cinst dotnetcore-sdk -y
 cinst dotnet -y
 cinst dotnet-6.0-sdk -y
+cinst dotnet-8.0-sdk -y
 cinst dotnetfx -y
 cinst netfx-4.6.1-devpack -y
 cinst dropbox -y
@@ -20,7 +20,6 @@ cinst sublimetext3.app -y
 cinst slack -y
 cinst discord -y
 cinst docker-desktop -y
-cinst docker-kitematic -y
 cinst sqlitebrowser -y
 cinst markdownpad2 -y
 cinst linqpad -y
@@ -37,7 +36,12 @@ cinst sql-server-management-studio -y
 # Non-.NET development tools
 
 cinst msys2 -y
-cinst ruby ruby2.devkit -y
+
+# Ruby Version Manager and Ruby Installation
+cinst rbenv -y
+rbenv install 2.7.4 # Replace with the latest Ruby 2 version
+rbenv install 3.1.2 # Replace with the latest Ruby 3 version
+rbenv global 3.1.2
 
 refreshenv
 
@@ -53,6 +57,12 @@ dotnet tool install --global pbm
 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+# Windows Terminal Installation
+cinst microsoft-windows-terminal -y
+
+# Visual Studio 2022 Installation
+cinst visualstudio2022professional -y
 
 Update-Help
 Install-WindowsUpdate
