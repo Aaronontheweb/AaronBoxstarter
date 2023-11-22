@@ -58,9 +58,6 @@ dotnet tool install --global pbm
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
-# Windows Terminal Installation
-cinst microsoft-windows-terminal -y
-
 # Visual Studio 2022 Installation
 cinst visualstudio2022professional -y
 
