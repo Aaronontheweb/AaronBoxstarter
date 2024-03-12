@@ -1,5 +1,4 @@
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
-Set-TimeZone -Name "Central Standard Time" -Verbose
 
 choco install cmder -y
 choco install 7zip -y
