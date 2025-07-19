@@ -5,8 +5,8 @@ choco install cmder -y
 choco install 7zip -y
 choco install jetbrainstoolbox -y
 choco install dotnet -y
-choco install dotnet-6.0-sdk -y
 choco install dotnet-8.0-sdk -y
+choco install dotnet-9.0-sdk -y
 choco install dotnetfx -y
 choco install netfx-4.6.1-devpack -y
 choco install dropbox -y
@@ -28,6 +28,7 @@ choco install pulumi -y
 choco install azure-cli -y
 choco install poshgit github-desktop -y
 choco install winmerge kdiff3 -y
+choco install tailscale -y
 
 # Data tools
 choco install azure-data-studio -y
@@ -56,9 +57,6 @@ dotnet tool install --global pbm
 
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-
-# Visual Studio 2022 Installation
-choco install visualstudio2022professional -y
 
 Update-Help
 Install-WindowsUpdate
