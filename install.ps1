@@ -34,6 +34,9 @@ choco install tailscale -y
 choco install azure-data-studio -y
 choco install sql-server-management-studio -y
 
+# Visual Studio 2022 Installation
+choco install visualstudio2022professional -y
+
 # Non-.NET development tools
 choco install msys2 -y
 
