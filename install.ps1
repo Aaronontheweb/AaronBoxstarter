@@ -1,5 +1,5 @@
 # Common development tools
-. "$PSScriptRoot\common.ps1"
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Aaronontheweb/AaronBoxstarter/master/common.ps1'))
 
 # Personal apps
 choco install dropbox -y
